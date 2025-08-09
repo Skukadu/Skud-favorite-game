@@ -1,0 +1,52 @@
+@font-face {
+  font-family: undertale;
+  src: url(utdrTextFont.ttf);
+}
+@font-face {
+  font-family: crosscode;
+  src: url(PixelHallfetica-Bold.ttf);
+}
+body {
+  background-image: url(../imgs/tile.png);
+}
+.game{
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+}
+h2 {
+    font-family: "Arial Narrow Bold", sans-serif;
+    color: black;
+}
+p{
+    font-family: "Comic Sans MS", cursive;
+}
+a {
+  text-decoration: none;
+  font-size: 125%;
+}
+img {
+  width: 50%;
+}
+
+a.purchase-ut:link,
+a.purchase-ut:visited {
+  color: white;
+}
+
+a.purchase-ut:hover,
+a.purchase-ut:focus {
+  color: yellow;
+}
+
+img.zoom {
+  transition: transform 0.3s ease;
+}
+
+img.zoom:hover:hover {
+  transform: scale(1.01);
+}
